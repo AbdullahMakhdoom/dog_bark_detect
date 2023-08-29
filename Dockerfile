@@ -19,4 +19,4 @@ RUN pip install torch torchvision torchaudio --index-url https://download.pytorc
 
 RUN pip install pytorch-lightning
 
-RUN pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+CMD ["python3", "real_time_inference.py"]

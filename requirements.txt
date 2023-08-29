@@ -1,0 +1,9 @@
+librosa
+matplotlib
+numpy
+pandas
+seaborn
+tqdm
+PyAudio
+torchlibrosa
+pytorch-lightning
